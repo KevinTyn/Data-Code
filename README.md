@@ -19,13 +19,6 @@ Data and code related to ACEVI
 │   ├── ia_diff.py        # Interactive TIF global comparison
 │   └── efficiency_comparison/  # Method comparison study (Const vs Linear vs AINA)
 │
-├── DeepLearning/         # UNet-based deep learning alternative approach
-│   ├── unet.py           # U-Net model architecture
-│   ├── main.py           # Entry point for deep learning pipeline
-│   ├── dataset.py        # InSAR dataset loader
-│   ├── train.py          # Training loop
-│   └── utils.py          # Utility functions
-│
 ├── Transform/            # GeoTIFF preprocessing & format conversion utilities
 │   ├── reprojection.py   # Batch reprojection
 │   ├── annual_mean.py    # Annual mean computation
