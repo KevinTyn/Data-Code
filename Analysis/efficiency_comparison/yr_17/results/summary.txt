@@ -1,0 +1,23 @@
+============================================================
+EFFICIENCY COMPARISON  ¡ª  SUMMARY
+============================================================
+Total pairs processed: 18
+
+Metric                               Const    Linear      Full
+--------------------------------------------------------------
+Avg RMSE (mm/yr)                    11.389    10.868     7.674
+Median RMSE (mm/yr)                  9.439     9.045     8.097
+Std RMSE (mm/yr)                     4.451     3.979     3.192
+Min RMSE (mm/yr)                     6.373     5.946     1.520
+Max RMSE (mm/yr)                    22.393    22.019    14.071
+
+Avg compute (ms)                     94.88    312.71   6459.66
+Avg total (I/O+comp, s)              5.810     6.028    12.175
+Total runtime (s)                    104.6     108.5     219.1
+  of which I/O (s)                   102.9     102.9     102.9
+
+RMSE reduction vs Const:  Linear = 3.7%   Full = 22.1%
+Speed factor vs Full:     Const = 2.1x   Linear = 2.0x
+
+Model selection (Full):   Constant = 12/18 (67%)   Linear = 6/18 (33%)
+============================================================
